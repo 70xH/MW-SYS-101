@@ -6,13 +6,6 @@
 
 using namespace std;
 
-void help()
-{
-    cout << "Usage: cpf [options] <old-file> <new-file>" << endl;
-    cout << "Options:" << endl;
-    cout << "-o - Overwrite the file" << endl;
-}
-
 /*
 Function to copy a file
 
@@ -22,6 +15,13 @@ Function to copy a file
     BOOL    bFailIfExists
     );
 */
+
+void help()
+{
+    cout << "Usage: cpf [options] <old-file> <new-file>" << endl;
+    cout << "Options:" << endl;
+    cout << "-o - Overwrite the file" << endl;
+}
 
 int main(int argc, char* argv[])
 {
