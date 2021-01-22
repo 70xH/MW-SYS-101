@@ -33,6 +33,7 @@ int main(int argc, char* argv[])
     else
     {
         cout << "Usage: mvr <file/dir_name> <file/dir_name>" << endl;
+        exit(-1);
     }
 
     return 0;
